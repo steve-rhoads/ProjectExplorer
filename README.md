@@ -1,4 +1,4 @@
 ProjectExplorer
 ===============
 
-See a tree of projects
+Search a tree of available projects
