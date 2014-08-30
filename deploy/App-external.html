@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProjExplorer</title>
+
+    <script type="text/javascript" src="https://rally1.rallydev.com/apps/2.0rc3/sdk.js"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function () {
+                Ext.define("CustomApp",{extend:"Rally.app.App",componentCls:"app",items:{html:"My First App"},launch:function(){console.log("Our First App has arrived!")}});
+
+            Rally.launchApp('CustomApp', {
+                name:"ProjExplorer",
+	            parentRepos:""
+            });
+
+        });
+    </script>
+
+
+    <style type="text/css">
+        
+    </style>
+</head>
+<body>
+</body>
+</html>
